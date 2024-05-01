@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tes Responsive</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header class="header">
+            <div class="hero">
+                <h2 class="heading">Taman Safari</h2>
+                <p class="sub-heading">Tiket Taman Safari</p>
+            </div>
+            <div class="features feature-1">
+                <h4 class="price">>IDR 235K</h4>
+                <p class="item">Weekday</p>
+            </div>
+            <div class="features feature-2">
+                <h5 class="price">>IDR 250K</h5>
+                <p class="item">Weekend</p>
+            </div>
+        </header>
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="Taman">
+                <h1>Taman Safari</h1>
+            </div>
+            <ul class="menu-list">
+                <il><a href="">Home</a></il>
+                <il><a href="">About</a></il>
+                <il><a href="">Galery</a></il>
+                <il><a href="">Profile</a></il>
+            </ul>
+            
+        </nav>
+
+        <section class="services">
+            <div class="service">
+                <div class="gambar">
+                   <a href="https://www.instagram.com/taman_safari?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                    <img src="img/assets/instagram.jpeg" alt="">
+                   </a>
+                </div>
+                <h3>Instagram</h3>
+            </div>
+            <div class="service">
+                <div class="gambar">
+                   <a href="https://x.com/TSI_Bogor ">
+                    <img src="img/assets/twitter.jpeg" alt="">
+                   </a>
+                </div>
+                <h3>Twitter</h3>
+            </div>
+            <div class="service">
+                <div class="gambar">
+                   <a href="https://web.facebook.com/tamansafaribogor/?locale=id_ID&_rdc=1&_rdr">
+                    <img src="img/assets/facebook.jpeg" alt="">
+                   </a>
+                </div>
+                <h3>Facebook</h3>
+            </div>
+            <div class="service">
+                <div class="gambar">
+                   <a href="https://www.youtube.com/channel/UC3GakgbQenPxUhJqYP9NCeA">
+                    <img src="img/assets/youtube.jpeg" alt="">
+                   </a>
+                </div>
+                <h3>Youtube</h3>
+        </section>
+        <section class="gallery">
+            <h2>Galery</h2>
+            <img src="img/assets/gambar1.jpeg" alt="">
+            <img src="img/assets/gambar2.jpeg" alt="">
+            <img src="img/assets/gambar3.jpeg" alt="">
+            <img src="img/assets/gambar4.jpeg" alt="">
+            <img src="img/assets/gambar5.jpg" alt="">
+            <img src="img/assets/gambar6.jpeg" alt="">
+            <img src="img/assets/gambar7.jpeg" alt="">
+            <img src="img/assets/gambar8.jpeg" alt="">
+            <img src="img/assets/gambar9.jpg" alt="">
+            <img src="img/assets/gambar10.jpg" alt="">
+
+
+        </section>
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input');
+        const nav = document.querySelector('nav ul');
+        menuToggle.addEventListener('click', function() {
+            nav.classList.toggle('slide');
+});
+ 
+    </script>
+</body>
+</html>
